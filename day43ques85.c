@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+//Q85: Reverse a string.
+char str[100];
+    int i = 0, j;
+
+    scanf("%s", str);
+
+    while(str[i] != '\0')
+        i++;
+
+    for(j = i - 1; j >= 0; j--)
+        printf("%c", str[j]);
+
+    return 0;
+}
