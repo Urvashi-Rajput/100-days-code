@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+//Q82: Print each character of a string on a new line.
+char str[100];
+    int i = 0;
+
+    scanf("%s", str);
+
+    while(str[i] != '\0')
+    {
+        printf("%c\n", str[i]);
+        i++;
+    }
+
+    return 0;
+}
